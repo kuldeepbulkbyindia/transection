@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast>
+    <network>
+        <join>
+            <multicast enabled="false"/>
+            <tcp-ip>
+                <member>localhost</member>
+            </tcp-ip>
+        </join>
+        <port>5000</port>
+    </network>
+</hazelcast>
